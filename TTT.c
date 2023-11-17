@@ -1,10 +1,13 @@
+// the code have a probleme wich when you choose board[1][1] or board[2][2] 
+// the systeme declare the character in those board as a winner, i still searching for the probleme
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-char board[3][3];
-const char PLAYER = 'X';
-const char COMPUTER = 'O';
+char board[3][3];     
 
 void PlayerMove();
 void ComputerMove();
